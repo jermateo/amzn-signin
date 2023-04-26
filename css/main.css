@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+}
+
+#logo {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-in {
+    border: 1px solid gray;
+    margin: auto;
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textbox {
+    width: 98%;
+}
+
+#forgot {
+    text-decoration: none;
+    color: rgb(62, 62, 248)
+}
+
+#submit {
+    background-color: yellow;
+    border: 1px solid gray;
+}
+
+#submit:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+footer {
+    width: 50%;
+    margin: auto;
+}
+
+footer > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#newacct {
+    margin: auto;
+    display: flex;
+}
